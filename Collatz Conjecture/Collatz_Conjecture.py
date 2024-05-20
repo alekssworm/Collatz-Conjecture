@@ -33,7 +33,7 @@ def animate_collatz_range(start, end):
     
     fig = make_subplots(rows=1, cols=1)
     
-    # Create initial plot
+    
     for idx, (n, sequence) in enumerate(sequences.items()):
         fig.add_trace(go.Scatter(x=[0], y=[sequence[0]], mode="lines+markers", name=f"n={n}", line=dict(color=colors[idx])))
     
