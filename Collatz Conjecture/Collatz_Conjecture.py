@@ -4,7 +4,7 @@ import numpy as np
 import random
 
 def collatz_sequence(n):
-    """Returns the Collatz sequence for a given number n."""
+    
     if n <= 0:
         raise ValueError("The number must be positive and greater than zero.")
     
